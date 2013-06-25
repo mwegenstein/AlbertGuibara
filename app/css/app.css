@@ -1,0 +1,229 @@
+html,body {
+	width:100%;
+	height:100%
+	;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Home Page*/
+#image-home {
+	position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+.header-text h2 {
+	position: fixed;
+	color: #fff;
+	top: 50px;
+  right: 860px;
+	width: 100%;
+	margin: 0 auto;
+	width: 300px;
+	height: 50px;
+}
+
+/*Button*/
+
+.button {
+  position: absolute;
+  width: 100px;
+  right: 500px;
+  top: 400px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: 14px/100% Arial, Helvetica, sans-serif;
+  padding: 1em .1em .1em;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  -webkit-border-radius: .5em; 
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+  text-decoration: none;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.orange {
+  color: #fff;
+  border: solid 1px #382E2D;
+  background: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(#382E2D), to(#f47a20));
+  background: -moz-linear-gradient(top,  #382E2D,   #605857);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#382E2D', endColorstr='#605857');
+}
+.orange:hover {
+  background: #382E2D;
+  background: -webkit-gradient(linear, left top, left bottom, from(#382E2D), to(#f06015));
+  background: -moz-linear-gradient(top,  #382E2D,   #605857);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#382E2D', endColorstr='#605857');
+}
+.orange:active {
+  color:#382E2D;
+  background: -webkit-gradient(linear, left top, left bottom, from(#382E2D), to(#faa51a));
+  background: -moz-linear-gradient(top,  #382E2D,  #605857);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#382E2D', endColorstr='#605857');
+}
+
+
+/*Navigation*/
+/*.top-bar {
+	background-color: transparent;
+}
+
+ul.right {
+	background-color: transparent;
+}*/
+/*#stickySpace {
+  position: fixed;
+  top: 0;
+}
+
+body #sticky {
+  background: transparent;
+  position: static;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+}
+body #sticky.stick {
+  top: 0;
+}
+
+ul.navigation li{
+  display: inline;
+  width: 40px;
+  margin: 25px;
+}
+
+.navigation {
+  float: right;
+}*/
+/*.invisible {
+  visibility: hidden;
+}*/
+
+/*.top-bar-section li a:not(.button) {
+  background: transparent;
+}*/
+
+body #stickySpace {
+  top:0;
+}
+body #sticky {
+  position: static;
+  background: transparent;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+}
+body #sticky.stick {
+  position: fixed;
+  top: 0;
+}
+
+#sticky ul {
+  float: right;
+}
+
+#sticky ul li{
+  display: inline;
+  margin-left:15px;
+  margin-right: 15px;
+  color: #fff;
+}
+
+
+/*Slider*/
+
+#portfolio-section {
+position: relative;
+width: 100%;
+height: 100%;
+
+}
+
+#content-slider-1{
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0px; 
+    height: auto;
+    width: auto;
+
+}
+
+.royalSlider img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    margin: 10px auto;
+}
+
+.royalSlider .royalWrapper {
+overflow:hidden;    
+position:relative;
+width:100%; 
+height:100%;
+}
+ <!-- slider css -->
+/*    <style>
+      .contentSlider {
+  width: 100%;
+}
+.contentSlider,
+.contentSlider .rsOverflow,
+.contentSlider .rsSlide,
+.contentSlider .rsVideoFrameHolder,
+.contentSlider .rsThumbs {
+  background: #eee;
+  color: #000;
+}
+
+.contentSlider .rsSlide,
+.contentSlider .rsOverflow {
+  background: #eee;
+}
+.contentSlider h3 {
+  font-size: 24px;
+  line-height: 31px;
+  margin: 12px 0 8px;
+  font-weight: bold;
+}
+.contentSlider img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.content-slider-bg {
+  width: 86%;
+  padding: 24px 7%;
+  background: #eee;
+}*/
+
+/*Clearfix*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
