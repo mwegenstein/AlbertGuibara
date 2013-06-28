@@ -16,7 +16,7 @@ function doTheScrollThing(){
     var distance= $(document).scrollTop()
     console.log(distance)  //no quotes means variable, quotes means a string
 
-    var threshold = 400
+    var threshold = 450
     
 
     if(distance > threshold) {
