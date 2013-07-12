@@ -40,7 +40,7 @@ html,body {
 
 /*Button*/
 
-.click {
+#click {
   position: absolute;
   right: 42%;
   top: 50%;
@@ -53,17 +53,17 @@ html,body {
   background-color: rgba(56, 45, 46, .7);
 }
 
-.click p {
+#click p {
   color: #fff;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   letter-spacing: 1px;
 }
 
-.click:hover {
+#click:hover {
    background-color: rgba(102, 102, 102, .7);
    color: #ffffff;
    }
-.click:active {
+#click:active {
    border-top-color: #7f8487;
    background: #7f8487;
    }
