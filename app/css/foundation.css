@@ -1891,7 +1891,8 @@ form.custom {
   .top-bar {
     background: #111111;
     *zoom: 1;
-    overflow: visible; }
+    overflow: visible;
+    z-index: 100; }
     .top-bar:before, .top-bar:after {
       content: " ";
       display: table; }
@@ -1997,7 +1998,8 @@ form.custom {
 
   .no-js .top-bar-section ul li:hover > a {
     background: rgba(0, 0, 0, .7);
-    color: white; }
+    color: white;
+     }
   .no-js .top-bar-section ul li:active > a {
     background: #090909;
     color: white; }

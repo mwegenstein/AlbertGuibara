@@ -15,22 +15,42 @@
   <link rel="stylesheet" href="css/app.css"/>
   <link href='http://fonts.googleapis.com/css?family=Average' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-  <div id="image-home">
-    <div class="header-image">
-      <img src="img/GuibaraSign2.png" alt="Albert Guibara">
-    </div>
-    <div id="click">
-      <p>Click or Scroll
-        <!-- Click on button to get to next section --> 
-      </p>
-    </div>
-    <div class="Al-Chrissy">
-      <p>Albert + <a href="http://www.christineguibara.com/" target="_blank">Christine</a> pouring bronze in the studio</p>
-    </div>
-  </div>
   <div id="portfolio-section">
+      <nav class="top-bar home-nav">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Guibara</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right" id="clear">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="has-dropdown"><a href="#">Projects</a>
+              <ul class="dropdown">
+                <li><a href="kukio.html">Kukio</a></li>
+                <li><a href="grandcafe.html">Grand Cafe</a></li>
+                <li><a href="steelcase.html">Steelcase</a></li>
+                <li><a href="library.html">Mountain View<br>Public Library</a></li>
+                <li><a href="sanmateo.html">City of San Mateo</a></li>
+                <li><a href="stanford.html">Stanford</a></li>
+                <li><a href="children.html">Children's Institute</a></li>
+                <li><a href="pnc.html">PNC Park</a></li>
+                <li><a href="sb.html">Santa Barbara</a></li>
+                <li><a href="blackie.html">Blackie's Pasture</a></li>
+                <li><a href="other.html">Other Creative Pursuits</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
     <div class="row">
      <div class="content-slider-bg">
        <div id="home-slider">
@@ -136,42 +156,16 @@
       </div>
     </div>
   </div>
-  <div id="stickySpace">
-    <div id="sticky">
-      <nav class="home-nav">
-        <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">History</a></li>
-          <li><a href="about.html">About</a></li>
-           <li><a href="#">Projects</a>
-            <ul class="dropdown">
-              <li><a href="kukio.html">Kukio</a></li>
-              <li><a href="grandcafe.html">Grand Cafe</a></li>
-              <li><a href="steelcase.html">Steelcase</a></li>
-              <li><a href="library.html">Mountain View<br>Public Library</a></li>
-              <li><a href="sanmateo.html">City of San Mateo</a></li>
-              <li><a href="stanford.html">Stanford</a></li>
-              <li><a href="children.html">Children's Institute</a></li>
-              <li><a href="pnc.html">PNC Park</a></li>
-              <li><a href="sb.html">Santa Barbara</a></li>
-              <li><a href="blackie.html">Blackie's Pasture</a></li>
-              <li><a href="other.html">Other Creative Pursuits</a></li>
-            </ul>
-          </li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+
+     
+  
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="royalslider/jquery-1.8.3.min.js"></script>
 <script src="royalslider/jquery.royalslider.min.js"></script>
-<!-- <script src="js/foundation.min.js"></script>
-<script src="js/foundation.topbar.js"></script> -->
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation.topbar.js"></script>
 <script src="js/app.js"></script>
-<script src="js/index.js"></script>
 <script>
   //Portfolio Slider
   $(function() {
@@ -191,8 +185,3 @@
   });
 </script>
 </body>
-
-
-
-
-
