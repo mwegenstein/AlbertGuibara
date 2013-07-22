@@ -309,6 +309,7 @@ height: 100%;
     margin-left: 5px;
     font-family: Georgia, serif;
     font-size: 12px;
+    letter-spacing: 1px;
     margin-top: 5px;
     text-transform: uppercase;
     color:#FFFFEE;
@@ -331,10 +332,10 @@ height: 100%;
   #click {
     width: 12%;
     height:auto;
-    min-width: 102px;
+    min-width: 105px;
     position: relative;
-    top: 67%;
-    left: 51%;
+    top: 8%;
+    left: 44%;
     cursor: pointer;
     background-color: rgba(56, 45, 46, .7);
   }
