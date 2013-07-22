@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en" > 
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Albert Guibara</title>
+
+  <link rel="stylesheet" href="css/normalize.css"/>   
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css"> 
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+
+<body>
+<div class="project-page">
+  <div class="row">
+    <div class="small-4 small-centered columns">
+      <img src="img/GuibaraSign2.png" alt="Albert Guibara">
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-8 small-centered columns">
+      <nav class="project-nav" id="project-color">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#dropdown">Projects</a>
+            <ul id="dropdown">
+              <li><a href="kukio.html">Kukio</a></li>
+              <li><a href="grandcafe.html">Grand Cafe</a></li>
+              <li><a href="steelcase.html">Steelcase</a></li>
+              <li><a href="library.html">Mountain View<br>Public Library</a></li>
+              <li><a href="sanmateo.html">City of San Mateo</a></li>
+              <li><a href="stanford.html">Stanford</a></li>
+              <li><a href="children.html">Children's Institute</a></li>
+              <li><a href="pnc.html">PNC Park</a></li>
+              <li><a href="sb.html">Santa Barbara</a></li>
+              <li><a href="blackie.html">Blackie's Pasture</a></li>
+              <li><a href="other.html">Other Creative Pursuits</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="title">
+        <h2 class="project-title">Santa Barbara</h2>
+        <p class="description">
+          this is a description of the work in Santa Barbara. Here is another sentence, it is so pretty. And another one! Okay, all done.
+          Please click on an image to enlarge.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="popup-gallery">
+      <ul class="small-block-grid-2 large-block-grid-3">
+        <li><a href="img/sb/fountain7.jpg"><img src="img/sb/fountain7.jpg"width="325" height="217"></a></li>
+        <li><a href="img/sb/fountain1.jpg"><img src="img/sb/fountain1.jpg"width="325" height="217"></a></li>
+        <li><a href="img/sb/fountain2.jpg"><img src="img/sb/fountain2.jpg"width="325" height="217"></a></li>
+        <li><a href="img/sb/fountain3.jpg"><img src="img/sb/fountain3.jpg"width="325" height="217"></a></li>
+        <li><a href="img/sb/fountain4.jpg"><img src="img/sb/fountain4.jpg"width="325" height="217"></a></li>
+        <li><a href="img/sb/fountain6.jpg"><img src="img/sb/fountain6.jpg"width="325" height="217"></a></li>
+        <li><a href="img/sb/fountain8.jpg"><img src="img/sb/fountain8.jpg"width="325" height="217"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script> 
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation.topbar.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.popup-gallery').magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      }
+    });
+  });
+</script> 
+</body>

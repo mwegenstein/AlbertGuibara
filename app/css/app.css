@@ -125,10 +125,10 @@ nav ul:after {
   }
 
 nav ul li {
-  float: right;
-  margin-right: 30px;
+  float: left;
+  margin-right: 25px;
   font-family: Georgia, serif;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   margin-top: 5px;
   text-transform: uppercase;
@@ -174,32 +174,6 @@ ul .dropdown {
 .project-nav {
   margin-top: 15px;
 }
-/*.top-bar {
-  background-color: transparent;
-}
-
-.top-bar-section ul{
-  background-color: transparent;
-}
-
-.top-bar-section ul li > a {
-  font-family: 'Average', serif
-  font-family: Georgia, serif;
-  font-size: 13px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: right;
-  text-transform: uppercase;
-  margin-top: 5px;
-  }
-
-.top-bar-section li a:not(.button) {
-  background-color: transparent;
-}
-
-.project ul li > a {
-  color: #E6E6E6;
-}*/
 
 .home-nav ul li > a {
   color: #faf8f4;
@@ -209,12 +183,6 @@ ul .dropdown {
   color: #faf8f4;
 }
 
-/*.top-bar-section ul.right li .dropdown {
-  left: auto;
-  right: 0;
-  background-color: rgba(0,0,0,.7);
-  color:#fff; 
-  }*/
 
 /*background-color - use RGBA to make it slightly transparent you want to do this so the opacity of text doesnt change*/
 
@@ -279,13 +247,13 @@ height: 100%;
 
 .project-title {
   /*color: #373737;*/
-  color: #000;
+  color:#E6E6E6;
 }
 
 .description {
   font-family: Georgia, "Times New Roman", Times, serif;
   /*color: #373737;*/
-  color:#000;
+  color:#E6E6E6;
 }
 
 .image-instructions {
@@ -310,3 +278,84 @@ height: 100%;
   display: table;
   clear: both;
 }
+
+/*MEDIA QUERIES*/
+
+
+/*Ipad portrait*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    
+    nav ul li {
+    float: left;
+    margin-right: 20px;
+    font-family: Georgia, serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color:#FFFFEE;
+    }
+
+    .Al-Chrissy {
+      visibility: hidden;
+    }
+} 
+
+/*iphone 5 (bumped up max width to cover most screen sizes*/
+@media only screen and (max-device-width : 767px) { 
+    nav ul li {
+    float: left;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color:#FFFFEE;
+    }
+
+    .Al-Chrissy {
+      visibility: hidden;
+    }
+  
+    .header-image img{
+    width:40%;
+    height: 70%;
+    max-width: 150px;
+    max-height: 65px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 15px;
+    }
+
+  #click {
+    width: 12%;
+    height:auto;
+    min-width: 102px;
+    position: relative;
+    top: 67%;
+    left: 51%;
+    cursor: pointer;
+    background-color: rgba(56, 45, 46, .7);
+  }
+
+  #click p {
+    color: #FFFFEE;
+    font-family:Georgia, serif;
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+
+
+  }
+
+
+
+
+
+
+
